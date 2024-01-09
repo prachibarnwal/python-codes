@@ -14,7 +14,7 @@ win.setup(width=1200,height=600)
 win.bgcolor('black')
 
 # playing music
-winsound.PlaySound('anthem.wav',winsound.SND_ASYNC)
+#winsound.PlaySound('anthem.wav',winsound.SND_ASYNC)
 
 
 # adding image
@@ -76,7 +76,6 @@ for i in range(26):
     wheel.forward(42)
     wheel.backward(42)
     wheel.right(13.8)
-
 
 # writing text
 text = turtle.Turtle()
